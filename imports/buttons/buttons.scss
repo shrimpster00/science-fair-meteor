@@ -1,0 +1,39 @@
+#buttons {
+    height: 100%;
+    .row {
+        @extend .grey,
+        .darken-3;
+        margin: 0;
+        height: 20%;
+        font-size: 7vh;
+    }
+    .button:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+    }
+    .button {
+        @extend .col,
+        .s3,
+        .grey,
+        .darken-3,
+        .grey-text,
+        .text-lighten-4;
+        height: 100%;
+        text-align: center;
+        // line-height: calc(75vh / 5);
+        vertical-align: middle;
+    }
+    .big-button {
+        @extend .col,
+        .s9,
+        .grey,
+        .darken-3;
+        height: 100%;
+    }
+    #delete-button {
+        font-size: 5vh;
+    }
+}

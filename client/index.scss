@@ -1,1 +1,11 @@
 @import "{}/imports/materialize-src/sass/materialize.scss";
+
+@import "{}/imports/buttons/buttons.scss";
+@import "{}/imports/window/window.scss";
+
+#buttons-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 75vh;
+}

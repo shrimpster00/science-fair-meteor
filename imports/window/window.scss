@@ -1,0 +1,24 @@
+#window:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+#window {
+    @extend .grey,
+    .lighten-3,
+    .grey-text,
+    .text-darken-4;
+    // font-size: 15vh;
+    text-align: right;
+    height: 25vh;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+    div {
+        float: right;
+        vertical-align: middle;
+    }
+}
