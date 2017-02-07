@@ -8,5 +8,6 @@ import '../imports/buttons/buttons.js';
 import '../imports/window/window.js';
 
 Session.setDefault("calc","");
+Session.setDefault("calc2","");
 Session.setDefault("scale",.5);
 Session.setDefault("done",false);
